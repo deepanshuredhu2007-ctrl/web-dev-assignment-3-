@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio | DEEPANSHU</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">Your<span>Portfolio</span></div>
+            <nav class="main-nav">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <p class="hero-intro">Hi, I am</p>
+                <h1 class="hero-name">deepanshu</h1>
+                <h2 class="hero-role">
+                    <span class="role-static">I am a</span>
+                    <span class="role-animated">Full Stack Developer</span>
+                </h2>
+                <p class="hero-desc">
+                    Passionate about building clean, responsive web applications and learning modern technologies.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn outline-btn">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+  <div class="profile-photo">
+    <img src="images/DEEPANSHU.webp" alt="DEEPANSHU">
+  </div>
+</div>
+
+</div>
+
+ </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+        <div class="container section-inner">
+            <h2 class="section-title">About Me</h2>
+            <p>
+                I am a web development student who enjoys turning ideas into practical interfaces. 
+                This portfolio is part of my Web Development Lab, where I am focusing on Flexbox, Grid,
+                responsive layouts and CSS animations.
+            </p>
+            <p>
+                My interests include front‑end development, basic back‑end APIs and experimenting with new tools.
+                I like writing simple, readable code that can be improved over time.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills (Grid) -->
+    <section id="skills" class="section skills">
+        <div class="container section-inner">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>Semantic structure, forms and accessible markup for web pages.</p>
+                </article>
+                <article class="skill-card">
+                    <h3>CSS3</h3>
+                    <p>Layouts with Flexbox and Grid, responsive design and animations.</p>
+                </article>
+                <article class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Basic DOM manipulation, events and simple interactive features.</p>
+                </article>
+                <article class="skill-card">
+                    <h3>Git & GitHub</h3>
+                    <p>Version control, branching and hosting projects in repositories.</p>
+                </article>
+                <article class="skill-card">
+                    <h3>Responsive Design</h3>
+                    <p>Mobile‑first approach with media queries and relative units.</p>
+                </article>
+                <article class="skill-card">
+                    <h3>Problem Solving</h3>
+                    <p>Breaking problems into smaller tasks and debugging issues.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects (Grid) -->
+    <section id="projects" class="section projects">
+        <div class="container section-inner">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        A one‑page responsive portfolio built using Flexbox, Grid and CSS animations.
+                    </p>
+                    <a href="#" class="project-link">View Details</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Todo App</h3>
+                    <p>
+                        Simple todo list using HTML, CSS and JavaScript with basic local storage.
+                    </p>
+                    <a href="#" class="project-link">View Details</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Landing Page</h3>
+                    <p>
+                        Product landing page focused on clean layout and typography.
+                    </p>
+                    <a href="#" class="project-link">View Details</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Small Blog Design</h3>
+                    <p>
+                        Blog layout created with CSS Grid, including sidebar and content area.
+                    </p>
+                    <a href="#" class="project-link">View Details</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+        <div class="container section-inner">
+            <h2 class="section-title">Contact</h2>
+            <p>If you want to discuss a project or just say hello, feel free to send a message.</p>
+
+            <form class="contact-form">
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your@example.com">
+                </div>
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write your message here"></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2025 Your Name. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+                <a href="#hero">Back to top</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
